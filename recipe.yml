@@ -30,7 +30,7 @@ scripts:
   post:
     # Automatically runs script files within "scripts/post/".
     - autorun.sh
-    - broadcom.sh
+    #- broadcom.sh
     # Manually listed scripts.
     # - example_post.sh
 # Custom RPM configuration.
@@ -61,7 +61,7 @@ rpm:
     # Example:
     # - tilix
     - tlp
-    - broadcom-wl
+    - kmod-wl
   # These RPMs will be removed from the system image. This step happens during
   # image build, BEFORE installing custom RPMs (from the "rpm.install" category).
   remove:
