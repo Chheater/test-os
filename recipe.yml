@@ -30,6 +30,7 @@ scripts:
   post:
     # Automatically runs script files within "scripts/post/".
     - autorun.sh
+    - broadcom.sh
     # Manually listed scripts.
     # - example_post.sh
 # Custom RPM configuration.
