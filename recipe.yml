@@ -61,7 +61,7 @@ rpm:
     # Example:
     # - tilix
     - tlp
-    - brcmfmac-firmware
+    - b43-firmware
   # These RPMs will be removed from the system image. This step happens during
   # image build, BEFORE installing custom RPMs (from the "rpm.install" category).
   remove:
