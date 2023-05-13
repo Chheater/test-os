@@ -62,7 +62,7 @@ rpm:
     # - tilix
     - tlp
     - broadcom-wl
-    - akmod-wl
+    - kmod-wl
     - kernel
     - kernel-devel
     - kernel-headers
