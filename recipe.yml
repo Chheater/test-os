@@ -61,7 +61,7 @@ rpm:
     # Example:
     # - tilix
     - tlp
-    - b43-firmware
+    - broadcom-wl-dkms
   # These RPMs will be removed from the system image. This step happens during
   # image build, BEFORE installing custom RPMs (from the "rpm.install" category).
   remove:
