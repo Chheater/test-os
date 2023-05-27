@@ -5,7 +5,7 @@
 name: test-os
 # The native container image to build on top of.
 # Warning: Non-uBlue images might not function properly.
-base-image: ghcr.io/ublue-os/cinnamon-main
+base-image: ghcr.io/ublue-os/bluefin:38
 # What Fedora version to use. Use an explicit version or `latest`.
 # If you use `latest`, you will be automatically updated to the next major
 # Fedora version, assuming the image you're using as your base container
@@ -30,7 +30,6 @@ scripts:
   post:
     # Automatically runs script files within "scripts/post/".
     - autorun.sh
-    - broadcom.sh
     # Manually listed scripts.
     # - example_post.sh
 # Custom RPM configuration.
@@ -61,14 +60,7 @@ rpm:
     # Add your own below:
     # Example:
     # - tilix
-    - tlp
-    - broadcom-wl
-    - kmod-wl
-    - kernel
-    - kernel-devel
-    - kernel-headers
-    - linux-firmware
-    - b43-fwcutter
+    
   # These RPMs will be removed from the system image. This step happens during
   # image build, BEFORE installing custom RPMs (from the "rpm.install" category).
   remove:
@@ -81,11 +73,31 @@ rpm:
 # everything below and directly edit "yafti.yml" to have more control.
 # This is just an example selection.
 flatpaks:
-  - org.mozilla.firefox
-  - org.mozilla.Thunderbird
+  - app.drey.Warp
+  - com.brave.Browser
+  - com.github.GradienceTeam.Gradience
+  - com.github.Murmele.Gittyup
+  - com.github.rafostar.Clapper
+  - com.github.z.Cumulonimbus
+  - com.gitlab.newsflash
   - com.mattjakeman.ExtensionManager
-  - org.libreoffice.LibreOffice
-  - org.gnome.DejaDup
-  - org.gustavoperedo.FontDownloader
-  - com.github.tchx84.Flatseal
-  - io.github.celluloid_player.Celluloid
+  - com.rafaelmardojai.Blanket
+  - com.raggesilver.BlackBox
+  - com.system76.Popsicle
+  - com.usebottles.bottles
+  - com.vysp3r.ProtonPlus
+  - de.haeckerfelix.Fragments
+  - io.bassi.Amberol
+  - io.github.Bavarder.Bavarder
+  - io.github.Qalculate
+  - io.github.wereturtle.ghostwriter
+  - net.cozic.joplin_desktop
+  - org.fedoraproject.MediaWriter
+  - org.fedoraproject.Platform
+  - org.ferdium.Ferdium
+  - org.gnome.Boxes
+  - org.gnome.Loupe
+  - org.gnome.Weather
+  - org.gnome.clocks
+  - org.gnome.font-viewer
+  - org.onlyoffice.desktopeditors
