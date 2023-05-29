@@ -61,6 +61,8 @@ rpm:
     - gnome-shell-extension-dash-to-dock
     - gnome-shell-extension-caffeine
     - yaru-icon-theme
+    - f32-backgrounds
+    - terminus-fonts
     # Add your own below:
     # Example:
     # - tilix
