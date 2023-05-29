@@ -60,6 +60,7 @@ rpm:
     - libadwaita
     - gnome-shell-extension-dash-to-dock
     - gnome-shell-extension-caffeine
+    - yaru-icon-theme
     # Add your own below:
     # Example:
     # - tilix
