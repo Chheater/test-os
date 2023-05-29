@@ -30,7 +30,7 @@ scripts:
   post:
     # Automatically runs script files within "scripts/post/".
     - autorun.sh
-    - ublue-nix-install
+    #- ublue-nix-install
     # Manually listed scripts.
     # - example_post.sh
 # Custom RPM configuration.
