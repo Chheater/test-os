@@ -64,6 +64,7 @@ rpm:
     - yaru-icon-theme
     - f32-backgrounds
     - terminus-fonts
+    - waydroid
     #- howdy
     # Add your own below:
     # Example:
