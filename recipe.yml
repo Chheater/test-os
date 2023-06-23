@@ -64,7 +64,7 @@ rpm:
     - yaru-icon-theme
     - f32-backgrounds
     - terminus-fonts
-    - rpm-fusion-tainted
+    - rpmfusion-free-tainted
     #- libdvdcss 
     #- howdy
     # Add your own below:
