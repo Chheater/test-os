@@ -30,7 +30,7 @@ scripts:
   post:
     # Automatically runs script files within "scripts/post/".
     - autorun.sh
-    - dvd.sh
+    #- dvd.sh
     #- ublue-nix-install
     # Manually listed scripts.
     # - example_post.sh
