@@ -30,7 +30,6 @@ scripts:
   post:
     # Automatically runs script files within "scripts/post/".
     - autorun.sh
-    #- dvd.sh
     #- ublue-nix-install
     # Manually listed scripts.
     # - example_post.sh
@@ -47,7 +46,7 @@ rpm:
   # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%FEDORA_VERSION%/atim-starship-fedora-%FEDORA_VERSION%.repo
   # -  rpmfusion-free-tainted.repo
   # -  rpmfusion-nonfree-tainted.repo
-  #  - https://copr.fedorainfracloud.org/coprs/principis/howdy/repo/fedora-38/principis-howdy-fedora-38.repo
+  # - https://copr.fedorainfracloud.org/coprs/principis/howdy/repo/fedora-38/principis-howdy-fedora-38.repo
   # These RPMs will be installed from your enabled repositories (Fedora's own
   # repos, extra "repos" you've added, etc). The installation is automatically
   # performed via rpm-ostree during the image build, and will be pre-installed
@@ -65,7 +64,7 @@ rpm:
     - yaru-icon-theme
     - f32-backgrounds
     - terminus-fonts
-    - rpmfusion-free-release-tainted
+    #- rpmfusion-free-release-tainted
     #- howdy
     # Add your own below:
     # Example:
