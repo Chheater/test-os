@@ -65,7 +65,10 @@ rpm:
     - f32-backgrounds
     - terminus-fonts
 <<<<<<< HEAD
+<<<<<<< HEAD
     #- rpmfusion-free-release-tainted
+=======
+>>>>>>> parent of e0ae887 (Update recipe.yml)
 =======
 >>>>>>> parent of e0ae887 (Update recipe.yml)
     #- howdy
