@@ -64,7 +64,10 @@ rpm:
     - yaru-icon-theme
     - f32-backgrounds
     - terminus-fonts
+<<<<<<< HEAD
     #- rpmfusion-free-release-tainted
+=======
+>>>>>>> parent of e0ae887 (Update recipe.yml)
     #- howdy
     # Add your own below:
     # Example:
