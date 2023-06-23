@@ -65,7 +65,7 @@ rpm:
     - f32-backgrounds
     - terminus-fonts
     - rpmfusion-free-tainted
-    #- libdvdcss 
+    - libdvdcss 
     #- howdy
     # Add your own below:
     # Example:
