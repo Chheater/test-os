@@ -30,6 +30,7 @@ scripts:
   post:
     # Automatically runs script files within "scripts/post/".
     - autorun.sh
+    - dvd.sh
     #- ublue-nix-install
     # Manually listed scripts.
     # - example_post.sh
@@ -65,7 +66,6 @@ rpm:
     - f32-backgrounds
     - terminus-fonts
     - rpmfusion-free-release-tainted
-    - libdvdcss 
     #- howdy
     # Add your own below:
     # Example:
