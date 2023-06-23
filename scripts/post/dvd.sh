@@ -2,4 +2,4 @@
 
 set -oue pipefail
 
-dnf install rpmfusion-free-release-tainted
+dnf install libdvdcss
