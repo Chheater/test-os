@@ -30,7 +30,6 @@ scripts:
   post:
     # Automatically runs script files within "scripts/post/".
     - autorun.sh
-    #- ublue-nix-install
     # Manually listed scripts.
     # - example_post.sh
 # Custom RPM configuration.
@@ -64,14 +63,6 @@ rpm:
     - yaru-icon-theme
     - f32-backgrounds
     - terminus-fonts
-<<<<<<< HEAD
-<<<<<<< HEAD
-    #- rpmfusion-free-release-tainted
-=======
->>>>>>> parent of e0ae887 (Update recipe.yml)
-=======
->>>>>>> parent of e0ae887 (Update recipe.yml)
-    #- howdy
     # Add your own below:
     # Example:
     # - tilix
