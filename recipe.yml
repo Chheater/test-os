@@ -44,8 +44,8 @@ rpm:
   repos:
   # Example (which also demonstrates version number expansion):
   # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%FEDORA_VERSION%/atim-starship-fedora-%FEDORA_VERSION%.repo
-   -  rpmfusion-free-tainted.repo
-   -  rpmfusion-nonfree-tainted.repo
+  # -  rpmfusion-free-tainted.repo
+  # -  rpmfusion-nonfree-tainted.repo
   #  - https://copr.fedorainfracloud.org/coprs/principis/howdy/repo/fedora-38/principis-howdy-fedora-38.repo
   # These RPMs will be installed from your enabled repositories (Fedora's own
   # repos, extra "repos" you've added, etc). The installation is automatically
@@ -64,6 +64,7 @@ rpm:
     - yaru-icon-theme
     - f32-backgrounds
     - terminus-fonts
+    - rpm-fusion-tainted
     #- libdvdcss 
     #- howdy
     # Add your own below:
