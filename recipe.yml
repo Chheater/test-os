@@ -82,7 +82,7 @@ flatpaks:
   - app.drey.Warp
   - com.brave.Browser
   - com.github.GradienceTeam.Gradience
-  - com.github.Murmele.Gittyup
+  - io.github.shiftey.Desktop
   - com.github.rafostar.Clapper
   - com.github.z.Cumulonimbus
   - com.gitlab.newsflash
